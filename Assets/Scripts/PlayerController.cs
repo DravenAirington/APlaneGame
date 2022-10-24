@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float verticalInput;
     public float horizontalInput;
     public float spinInput;
+    public float boostSpeed;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         //makes it go forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-       //makes it go up and down
+       //makes it go up and downS
         transform.Rotate(Vector3.right * rotationSpeed * verticalInput);
         //gets horizontal axis
         horizontalInput = Input.GetAxis("Horizontal");
@@ -40,6 +41,12 @@ public class PlayerController : MonoBehaviour
         {
             player.transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(Vector3.zero), Time.deltaTime * 2f);
         }
+
+        if (Input.GetButton("Boost"))
+        {
+            transform.Translate(Vector3.forward * boostSpeed * Time.deltaTime);
+        }
+        
         
     }
     private void OnTriggerEnter(Collider other)
