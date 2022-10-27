@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public SpawnManager spawnManager;
     public GameObject player;
     public GameObject propeller;
     public float propellerSpeed;
@@ -51,6 +52,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        other.gameObject.SetActive(false);
+        spawnManager.SpawnNextObject();
     }
 }

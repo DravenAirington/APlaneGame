@@ -212,20 +212,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab20f7b769a9195468047a08d5ffd3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Obj1: {fileID: 225413851025375777, guid: 8e6f670d773ec6743ba2e7ef73bd5b10, type: 3}
-  Obj2: {fileID: 7160949632764097399, guid: ec284166dc1a7c741934cfc2d065505a, type: 3}
-  Obj3: {fileID: 7762500772378074673, guid: db1fb24dc6d56fb43abc10e9b146a07b, type: 3}
-  Obj4: {fileID: 2427009140024837637, guid: 39bf5e6965c66ac48bd6a8df8cf6a3e6, type: 3}
-  ohObj1: {fileID: 7092853341296892988, guid: f4d2d254aea4286489b7439788113c6e, type: 3}
-  ohObj2: {fileID: 4939970079155227455, guid: ca4a7963d52e7b047b4a0bdf3431770b, type: 3}
-  ohObj3: {fileID: 3463853862908028971, guid: 3f7aaecabe74bf14eb222fce4e967f60, type: 3}
-  ohObj4: {fileID: 5310798337889349731, guid: bde8796b8c7bf6e4890d0c0b0fc6d584, type: 3}
-  mhObj: {fileID: 2813672094278312510, guid: 2a3d840cf2fe0cd40b03119406d10681, type: 3}
-  objRando: {fileID: 8566694903450968634, guid: 908d7aa3203825645925c5189dff251f, type: 3}
-  objRando2: {fileID: 2440280227365362412, guid: f85377a45f4a7744fa04d38c04f9839d, type: 3}
-  objRando3: {fileID: 5329586987611779634, guid: 1ff4dc09b2eff084299fdd4477d152f4, type: 3}
-  objRando4: {fileID: 6244332034892517658, guid: 1d265ceaab4aaeb4ea0d537e176399ab, type: 3}
-  objRando5: {fileID: 4284058132245981592, guid: 3335e63efcdf44c4694876505afa46ed, type: 3}
+  objectList:
+  - {fileID: 7092853341296892988, guid: f4d2d254aea4286489b7439788113c6e, type: 3}
+  - {fileID: 225413851025375777, guid: 8e6f670d773ec6743ba2e7ef73bd5b10, type: 3}
+  - {fileID: 7160949632764097399, guid: ec284166dc1a7c741934cfc2d065505a, type: 3}
+  - {fileID: 2427009140024837637, guid: 39bf5e6965c66ac48bd6a8df8cf6a3e6, type: 3}
+  - {fileID: 3463853862908028971, guid: 3f7aaecabe74bf14eb222fce4e967f60, type: 3}
+  - {fileID: 8566694903450968634, guid: 908d7aa3203825645925c5189dff251f, type: 3}
+  - {fileID: 2440280227365362412, guid: f85377a45f4a7744fa04d38c04f9839d, type: 3}
+  - {fileID: 6244332034892517658, guid: 1d265ceaab4aaeb4ea0d537e176399ab, type: 3}
+  - {fileID: 5329586987611779634, guid: 1ff4dc09b2eff084299fdd4477d152f4, type: 3}
+  - {fileID: 4284058132245981592, guid: 3335e63efcdf44c4694876505afa46ed, type: 3}
+  - {fileID: 5310798337889349731, guid: bde8796b8c7bf6e4890d0c0b0fc6d584, type: 3}
+  - {fileID: 2813672094278312510, guid: 2a3d840cf2fe0cd40b03119406d10681, type: 3}
+  - {fileID: 4939970079155227455, guid: ca4a7963d52e7b047b4a0bdf3431770b, type: 3}
+  - {fileID: 7762500772378074673, guid: db1fb24dc6d56fb43abc10e9b146a07b, type: 3}
 --- !u!4 &582796265
 Transform:
   m_ObjectHideFlags: 0
@@ -589,6 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17643f3beed5a754cb0d2b0786d190ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnManager: {fileID: 582796264}
   player: {fileID: 1985098705}
   propeller: {fileID: 1806236831}
   propellerSpeed: 3
@@ -597,14 +599,14 @@ MonoBehaviour:
   verticalInput: 0
   horizontalInput: 0
   spinInput: 0
-  boostSpeed: 0
+  boostSpeed: 1000
 --- !u!4 &1985098710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
   m_PrefabInstance: {fileID: 1492180183}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1985098711
-BoxCollider:
+--- !u!135 &1985098711
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -614,8 +616,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 133.86388, y: 86.77559, z: 8.871567}
-  m_Center: {x: -3.1864548, y: 4.885498, z: -62.35077}
+  m_Radius: 2502
+  m_Center: {x: 0, y: 2.3593533, z: -2574}
 --- !u!54 &1985098712
 Rigidbody:
   m_ObjectHideFlags: 0
