@@ -428,12 +428,12 @@ MonoBehaviour:
   player: {fileID: 932696436}
   propeller: {fileID: 1213532219}
   propellerSpeed: 3
-  speed: 65
-  rotationSpeed: 0.7
+  speed: 45
+  rotationSpeed: 1
   verticalInput: 0
   horizontalInput: 0
   spinInput: 0
-  boostSpeed: 45
+  boostSpeed: 65
 --- !u!4 &932696438
 Transform:
   m_ObjectHideFlags: 0
@@ -5688,7 +5688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4893810151012198928, guid: d89bf6e91ed962243bccca5ae430e1db, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893810151012198929, guid: d89bf6e91ed962243bccca5ae430e1db, type: 3}
       propertyPath: m_Materials.Array.size
