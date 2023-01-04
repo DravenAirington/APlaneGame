@@ -5,15 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
+    public GameObject Panel;
     // Start is called before the first frame update
     public void StartNew()
     {
         SceneManager.LoadScene(1);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void openStore()
     {
-        
+        Panel.SetActive(true);
     }
+
+    public void closeStore()
+    {
+        Panel.SetActive(false);
+    }
+
 }
