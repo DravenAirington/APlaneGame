@@ -25,6 +25,7 @@ public class GameMenuManager : MonoBehaviour
     public void homeButton()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1.0f;
     }
 
     public void reloadGame()

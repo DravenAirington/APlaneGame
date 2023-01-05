@@ -1290,6 +1290,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5588413167485372880, guid: f8c3b65648d88284e8a74f107c8cbb56, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588413167485372880, guid: f8c3b65648d88284e8a74f107c8cbb56, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5588413167485372887, guid: f8c3b65648d88284e8a74f107c8cbb56, type: 3}
       propertyPath: m_Name
       value: EaglePlane
