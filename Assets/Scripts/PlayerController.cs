@@ -37,12 +37,12 @@ public class PlayerController : MonoBehaviour
         //spins left and right
         transform.Rotate(Vector3.back * rotationSpeed * horizontalInput);
         
-        
+        //uses quaternions to adjust back to zero
         if (Input.GetButton("Readjust"))
         {
             player.transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(Vector3.zero), Time.deltaTime * 2f);
         }
-
+        //press e to boost
         if (Input.GetButton("Boost"))
         {
             transform.Translate(Vector3.forward * boostSpeed * Time.deltaTime);
