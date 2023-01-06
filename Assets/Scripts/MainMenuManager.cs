@@ -12,14 +12,9 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void openStore()
-    {
-        Panel.SetActive(true);
-    }
+  public void openStore()
 
-    public void closeStore()
     {
-        Panel.SetActive(false);
+        SceneManager.LoadScene(2);
     }
-
 }
