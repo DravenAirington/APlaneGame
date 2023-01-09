@@ -6,23 +6,50 @@ using UnityEngine.Android;
 
 public class StoreCameraManager : MonoBehaviour
 {
-    public CinemachineVirtualCamera[] planeCams = new CinemachineVirtualCamera[13];
+    public GameObject[] cams = new GameObject[13];
+    int activeCamera = 0;
 
-
-    private void OnEnable()
+    public void Update()
     {
-        CamSwitcher.register(planeCams[12]);
-    }
-    private void OnDisable()
-    {
-        CamSwitcher.unregister(planeCams[12]);
-    }
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.D)) 
+        if(Input.GetKeyDown(KeyCode.D))
         {
-            //switch cam
-            if(CamSwitcher.IsActivecamera())
+            NextCam();
         }
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            PrevCam();
+        }
+    }
+    public void NextCam()
+    {
+        int previousCam = activeCamera;
+        if (activeCamera == cams.Length - 1)
+        {
+            activeCamera = 0;
+        }
+        else
+        {
+            activeCamera++;
+        }
+       
+        cams[previousCam].SetActive(false);
+        cams[activeCamera].SetActive(true);
+    }
+
+    public void PrevCam()
+    {
+        int previousCam = activeCamera;
+        if(activeCamera == 0)
+        {
+           
+        }
+        else
+        {
+         activeCamera--;
+         cams[previousCam].SetActive(false);
+         cams[activeCamera].SetActive(true);
+        }
+        
     }
 }
