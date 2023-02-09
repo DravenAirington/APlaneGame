@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class PlayerController : MonoBehaviour
@@ -15,6 +16,10 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float spinInput;
     public float boostSpeed;
+    public float horizontal;
+    public float vertical;
+    public bool boost;
+    public bool fire;
     
     // Start is called before the first frame update
     void Start()
@@ -27,23 +32,23 @@ public class PlayerController : MonoBehaviour
     {
         propeller.transform.Rotate(Vector3.forward * propellerSpeed);
         //gets the vertical axis to go up and down
-        verticalInput = Input.GetAxis("Vertical");
+        //verticalInput = Input.GetAxis("Vertical");
         //makes it go forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
        //makes it go up and downS
-        transform.Rotate(Vector3.right * rotationSpeed * verticalInput);
+        transform.Rotate(Vector3.right * rotationSpeed * vertical);
         //gets horizontal axis
-        horizontalInput = Input.GetAxis("Horizontal");
+        //horizontalInput = Input.GetAxis("Horizontal");
         //spins left and right
-        transform.Rotate(Vector3.back * rotationSpeed * horizontalInput);
+        transform.Rotate(Vector3.back * rotationSpeed * horizontal);
         
         //uses quaternions to adjust back to zero
-        if (Input.GetButton("Readjust"))
+        /*if (Input.GetButton("Readjust"))
         {
             player.transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(Vector3.zero), Time.deltaTime * 2f);
-        }
+        }*/
         //press e to boost
-        if (Input.GetButton("Boost"))
+        if (boost)
         {
             transform.Translate(Vector3.forward * boostSpeed * Time.deltaTime);
         }
@@ -54,5 +59,22 @@ public class PlayerController : MonoBehaviour
     {
         other.gameObject.SetActive(false);
         spawnManager.SpawnNextObject();
+    }
+
+    public void OnMove(InputValue value)
+    {
+        vertical = value.Get<Vector2>().y;  
+    }
+    public void OnRotate(InputValue value)
+    {
+        horizontal = value.Get<Vector2>().x;
+    }
+    public void OnBoost(InputValue value)
+    {
+        boost = !boost;
+    }
+    public void OnFire(InputValue value)
+    {
+        fire = value.isPressed;
     }
 }
