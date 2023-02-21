@@ -43,7 +43,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 320.5, y: 320.9, z: 0.85315293}
-  m_Center: {x: -0.42978665, y: -1.1644517, z: 0.073423944}
+  m_Center: {x: -0.42978665, y: -1.1644517, z: 5}
 --- !u!1 &1262175910433524960
 GameObject:
   m_ObjectHideFlags: 0
@@ -11987,7 +11987,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6835509647156595791}
   - component: {fileID: -1222571830056349496}
-  - component: {fileID: 3585452063805447153}
   - component: {fileID: 3103434407648333894}
   m_Layer: 0
   m_Name: Find the right Obstacle 2
@@ -12027,19 +12026,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3585452063805447153
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2440280227365362412}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3103434407648333894
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerController : MonoBehaviour
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
     public float vertical;
     public bool boost;
     public bool fire;
+    
+    
     
     // Start is called before the first frame update
     void Start()
@@ -55,6 +58,7 @@ public class PlayerController : MonoBehaviour
         
         
     }
+
     private void OnTriggerEnter(Collider other)
     {
         other.gameObject.SetActive(false);
