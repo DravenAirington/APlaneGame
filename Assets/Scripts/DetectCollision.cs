@@ -14,7 +14,7 @@ public class DetectCollision : MonoBehaviour
     {
         Destroy(gameObject.transform.root.gameObject);
         GOpanel.SetActive(true);
-
+        uiCam.SetActive(true);
     }
 
     private void OnTriggerExit(Collider other)
