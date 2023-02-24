@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3861307020048734709}
   m_Layer: 0
   m_Name: Arch (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11948,7 +11948,7 @@ GameObject:
   - component: {fileID: 7134984160653752022}
   m_Layer: 0
   m_Name: Arch (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23881,7 +23881,7 @@ GameObject:
   - component: {fileID: 1253420924939306068}
   m_Layer: 0
   m_Name: Arch (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35814,7 +35814,7 @@ GameObject:
   - component: {fileID: 5668527125028844552}
   m_Layer: 0
   m_Name: Arch (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47747,7 +47747,7 @@ GameObject:
   - component: {fileID: 273217254299704730}
   m_Layer: 0
   m_Name: Arch (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59680,7 +59680,7 @@ GameObject:
   - component: {fileID: 6169545679623719747}
   m_Layer: 0
   m_Name: Arch (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71613,7 +71613,7 @@ GameObject:
   - component: {fileID: 771443831550400335}
   m_Layer: 0
   m_Name: Arch (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83546,7 +83546,7 @@ GameObject:
   - component: {fileID: 6643312596556076678}
   m_Layer: 0
   m_Name: Arch (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95677,7 +95677,7 @@ GameObject:
   - component: {fileID: 8428450771952024579}
   m_Layer: 0
   m_Name: Arch (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107611,7 +107611,7 @@ GameObject:
   - component: {fileID: 8124209013234516994}
   m_Layer: 0
   m_Name: Arch
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119563,7 +119563,7 @@ GameObject:
   - component: {fileID: 6531766813557958064}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Target
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119673,7 +119673,7 @@ GameObject:
   - component: {fileID: 4796790644216799295}
   m_Layer: 0
   m_Name: Arch (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

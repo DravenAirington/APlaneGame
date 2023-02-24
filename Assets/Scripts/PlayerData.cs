@@ -37,11 +37,17 @@ public class PlayerData : MonoBehaviour
 
     public void SaveCoins(int coinsToSave)
     {
-        coins += coinsToSave; 
+        coins += coinsToSave;
+        PlayerPrefs.SetInt("Coins", 0);
     }
     public void SaveHighScore(int highScoreToSave)
     {
         if(highScoreToSave > highScore)
+        {
             highScore = highScoreToSave;
+            PlayerPrefs.SetInt("Score", 0);
+        }
+            
+
     }
 }

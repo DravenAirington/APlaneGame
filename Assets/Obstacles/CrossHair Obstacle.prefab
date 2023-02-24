@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1419153217943479881}
   m_Layer: 0
   m_Name: Right Cone
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -900,6 +900,7 @@ GameObject:
   - component: {fileID: 1127676911781055953}
   - component: {fileID: 8534808266899147302}
   - component: {fileID: -1428106048857906419}
+  - component: {fileID: 7166574848456949692}
   m_Layer: 0
   m_Name: CrossHair Obstacle
   m_TagString: Obstacle
@@ -915,7 +916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2427009140024837637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2200}
+  m_LocalPosition: {x: 0, y: 8, z: 2200}
   m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
   m_Children:
   - {fileID: 1617930781907512419}
@@ -951,6 +952,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f914814f4269a14994673a5d0bde3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &7166574848456949692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2427009140024837637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 204.7, y: 212.06, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5826230787537201861
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +981,7 @@ GameObject:
   - component: {fileID: 3652124033654020975}
   m_Layer: 0
   m_Name: Bottom Cone
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1855,7 +1869,7 @@ GameObject:
   - component: {fileID: 8824724863972437492}
   m_Layer: 0
   m_Name: Left Cone
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2744,7 +2758,7 @@ GameObject:
   - component: {fileID: 8274462511206722203}
   m_Layer: 0
   m_Name: Top Cone
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3631,18 +3645,6 @@ PrefabInstance:
     - target: {fileID: 2593500573908973898, guid: 1c023298cedd7cd4da5bca7abf49d553, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2593500573908973898, guid: 1c023298cedd7cd4da5bca7abf49d553, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2593500573908973898, guid: 1c023298cedd7cd4da5bca7abf49d553, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2593500573908973898, guid: 1c023298cedd7cd4da5bca7abf49d553, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 2593500573908973898, guid: 1c023298cedd7cd4da5bca7abf49d553, type: 3}
       propertyPath: m_LocalPosition.x

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 444274866}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 444274868}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 444274864}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -883,10 +883,9 @@ GameObject:
   - component: {fileID: 7480425864111330728}
   - component: {fileID: 4581689477513242032}
   - component: {fileID: 862890152918999943}
-  - component: {fileID: 444274862}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1147,19 +1146,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274862
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4848027845496213080}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 87.8, y: 87.8, z: 1}
-  m_Center: {x: 11.46, y: -13.4, z: 3.5}
 --- !u!1 &6712721439430761830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,7 +1163,7 @@ GameObject:
   - component: {fileID: 4237200815003278966}
   m_Layer: 0
   m_Name: Top Prism
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1474,6 +1460,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6040032376451980736}
   - component: {fileID: 6385839747610090772}
+  - component: {fileID: 904850680884232453}
+  - component: {fileID: 4173222734754933712}
   m_Layer: 0
   m_Name: Alien Obstacle
   m_TagString: Obstacle
@@ -1509,6 +1497,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f914814f4269a14994673a5d0bde3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &904850680884232453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092853341296892988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 87.8, y: 87.8, z: 1}
+  m_Center: {x: 11.46, y: -13.4, z: 3.5}
+--- !u!54 &4173222734754933712
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092853341296892988}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7659480411842662470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,7 +1543,7 @@ GameObject:
   - component: {fileID: 6735538117467984687}
   m_Layer: 0
   m_Name: Top Prism (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1830,7 +1847,7 @@ GameObject:
   - component: {fileID: 2235871864711975840}
   m_Layer: 0
   m_Name: Top Prism (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2134,7 +2151,7 @@ GameObject:
   - component: {fileID: 2721870605869643465}
   m_Layer: 0
   m_Name: Top Prism (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2440,18 +2457,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6552987154371318405, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6552987154371318405, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6552987154371318405, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6552987154371318405, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.96
       objectReference: {fileID: 0}
@@ -2490,10 +2495,6 @@ PrefabInstance:
     - target: {fileID: 6552987154371318405, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6552987154929842237, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19826bb69e0c37a4ba8a5b75d5da9a70, type: 3}

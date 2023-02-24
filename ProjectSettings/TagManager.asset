@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Obstacle
   - Target
+  - Copper coin
+  - Gold Coin
+  - silver coin
+  - rusty coin
   layers:
   - Default
   - TransparentFX

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -1310250460208606551}
   m_Layer: 0
   m_Name: Basic Obstacle
-  m_TagString: Target
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 2452702793135242034}
   m_Layer: 0
   m_Name: Bottom Pole Metal
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 6783807398881998575}
   m_Layer: 0
   m_Name: Bottom (1)
-  m_TagString: Target
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 8242440226230746647}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 3357396407149414394}
   m_Layer: 0
   m_Name: L Pole
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 3497461002551631732}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 730670159826700235}
   m_Layer: 0
   m_Name: R Pole
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 497995444025402231}
   m_Layer: 0
   m_Name: 'Bottom pole metal '
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 7448739726690653720}
   m_Layer: 0
   m_Name: Top pole metal
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 5953469739662793546}
   m_Layer: 0
   m_Name: Top Pole Metal
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -975,18 +975,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 225514681774814550, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 225514681774814550, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 225514681774814550, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 225514681774814550, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.029198
       objectReference: {fileID: 0}
@@ -1029,14 +1017,6 @@ PrefabInstance:
     - target: {fileID: 225514681774814551, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
       propertyPath: m_Name
       value: Coin_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 336513323173914271, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336513323173914271, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0341
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4115227f80636a74091aeccfcc1fc476, type: 3}

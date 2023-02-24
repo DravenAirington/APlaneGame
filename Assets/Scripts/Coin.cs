@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if(other.CompareTag("rusty coin"))
+        {
+            GameManager.instance.CollectCoin(1);
+        }
+        if (other.CompareTag("silver coin"))
+        {
+            GameManager.instance.CollectCoin(5);
+        }
+        if (other.CompareTag("Copper coin"))
+        {
+            GameManager.instance.CollectCoin(2);
+        }
+        if (other.CompareTag("Gold Coin"))
+        {
+            GameManager.instance.CollectCoin(10);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

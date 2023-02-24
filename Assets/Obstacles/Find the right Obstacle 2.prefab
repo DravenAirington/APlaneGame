@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7292165088801145741}
-  - component: {fileID: 9212120806576666552}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Target
@@ -31,19 +30,6 @@ Transform:
   m_Father: {fileID: 5184507779724409858}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &9212120806576666552
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970083610525432808}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 320.5, y: 320.9, z: 0.85315293}
-  m_Center: {x: -0.42978665, y: -1.1644517, z: 5}
 --- !u!1 &1262175910433524960
 GameObject:
   m_ObjectHideFlags: 0
@@ -11988,6 +11974,7 @@ GameObject:
   - component: {fileID: 6835509647156595791}
   - component: {fileID: -1222571830056349496}
   - component: {fileID: 3103434407648333894}
+  - component: {fileID: 8290761792744440801}
   m_Layer: 0
   m_Name: Find the right Obstacle 2
   m_TagString: Obstacle
@@ -12039,6 +12026,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f914814f4269a14994673a5d0bde3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8290761792744440801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440280227365362412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 320.5, y: 320.9, z: 0.85315293}
+  m_Center: {x: -0.42978665, y: -1.1644517, z: 5}
 --- !u!1 &4493668023771479619
 GameObject:
   m_ObjectHideFlags: 0

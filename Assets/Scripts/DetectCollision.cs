@@ -12,14 +12,44 @@ public class DetectCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject.transform.root.gameObject);
-        GOpanel.SetActive(true);
-        uiCam.SetActive(true);
+        if (collision.gameObject.tag == "Obstacle")
+        {
+            Destroy(gameObject.transform.root.gameObject);
+            GOpanel.SetActive(true);
+            uiCam.SetActive(true);
+            GameManager.instance.GameOver();
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if(other.tag == "Obstacle")
+        {
             other.gameObject.SetActive(false);
             spawnManager.SpawnNextObject();
+            
+        }
+          
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("rusty coin"))
+        {
+            GameManager.instance.CollectCoin(1);
+        }
+        if (other.CompareTag("silver coin"))
+        {
+            GameManager.instance.CollectCoin(5);
+        }
+        if (other.CompareTag("Copper coin"))
+        {
+            GameManager.instance.CollectCoin(2);
+        }
+        if (other.CompareTag("Gold Coin"))
+        {
+            GameManager.instance.CollectCoin(10);
+        }
     }
 }
