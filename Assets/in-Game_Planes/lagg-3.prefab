@@ -695,6 +695,7 @@ GameObject:
   - component: {fileID: 4892488133616297345}
   - component: {fileID: 3997329211491964155}
   - component: {fileID: 446420212118055209}
+  - component: {fileID: 3204773073689852225}
   m_Layer: 0
   m_Name: blade
   m_TagString: Untagged
@@ -765,6 +766,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3204773073689852225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4570300259276675207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propellerSpeed: 0
 --- !u!1 &5385712299326952530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1353,10 @@ PrefabInstance:
     - target: {fileID: 1539576854995481981, guid: 8738e7d2c585bc845967c0c5e4697bec, type: 3}
       propertyPath: m_Name
       value: PlaneCanvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539576854995481981, guid: 8738e7d2c585bc845967c0c5e4697bec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1539576854995481982, guid: 8738e7d2c585bc845967c0c5e4697bec, type: 3}
       propertyPath: m_Pivot.x

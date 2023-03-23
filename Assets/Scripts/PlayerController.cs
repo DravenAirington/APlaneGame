@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
 {
     public SpawnManager spawnManager;
     public GameObject player;
-    public GameObject propeller;
-    public float propellerSpeed;
+   
+
     public float speed;
     public float rotationSpeed;
     public float verticalInput;
@@ -21,19 +21,26 @@ public class PlayerController : MonoBehaviour
     public float vertical;
     public bool boost;
     public bool fire;
-    
-    
-    
+    public GameObject[] planes;
+    public GameObject UI;
+    public GameObject GameOver;
+
+
     // Start is called before the first frame update
     void Start()
     {
-      
+        GameObject plane = Instantiate(planes[PlayerData.instance.currentPlane], transform);
+        DetectCollision detect = plane.GetComponentInChildren<DetectCollision>();
+        detect.spawnManager = spawnManager;
+        detect.uiCam = UI;
+        detect.GOpanel = GameOver;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        propeller.transform.Rotate(Vector3.forward * propellerSpeed);
+       
         //gets the vertical axis to go up and down
         //verticalInput = Input.GetAxis("Vertical");
         //makes it go forward

@@ -8,9 +8,10 @@ public class GameManager : MonoBehaviour
     public int coinsCollected;
     public float scoreTime;
     public int score;
-    public bool isGameOver;
+    public bool isGameOver, saveScore;
     public static GameManager instance;
     public TextMeshProUGUI scoreLabel, coinLabel;
+    
 
 
     // Start is called before the first frame update
@@ -32,6 +33,8 @@ public class GameManager : MonoBehaviour
         coinsCollected = 0;
         score = 0;
         isGameOver = false;
+        saveScore = false;
+
     }
 
     public void GameOver()
@@ -42,10 +45,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isGameOver == true)
+        if(isGameOver == true && saveScore == false)
         {
             PlayerData.instance.SaveCoins(coinsCollected);
             PlayerData.instance.SaveHighScore(score);
+            saveScore = true;
         }
 
         if(isGameOver == false)

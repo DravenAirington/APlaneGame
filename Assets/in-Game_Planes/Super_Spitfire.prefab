@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 5471118552241973687}
   - component: {fileID: 5471118552240679319}
   - component: {fileID: 5471118552239680343}
+  - component: {fileID: 3784593259169744550}
   m_Layer: 0
   m_Name: proppeler
   m_TagString: Untagged
@@ -630,6 +631,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3784593259169744550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471118552241616279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propellerSpeed: 0
 --- !u!1 &5471118552241616281
 GameObject:
   m_ObjectHideFlags: 0

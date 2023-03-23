@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1569350020324107877
+--- !u!1 &1389779743794284505
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6389025734386013566}
-  - component: {fileID: 1715133954438191990}
-  - component: {fileID: 5050752879996460658}
+  - component: {fileID: 6783669917056480450}
+  - component: {fileID: 1243960970769873610}
+  - component: {fileID: 4655013566589943758}
   m_Layer: 0
   m_Name: EaglePlane_LeftWheel
   m_TagString: Untagged
@@ -18,35 +18,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6389025734386013566
+--- !u!4 &6783669917056480450
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569350020324107877}
+  m_GameObject: {fileID: 1389779743794284505}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5264787, y: 0.007521919, z: -0.62619734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5016342318903742895}
+  m_Father: {fileID: 4833398234465153043}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1715133954438191990
+--- !u!33 &1243960970769873610
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569350020324107877}
+  m_GameObject: {fileID: 1389779743794284505}
   m_Mesh: {fileID: -8056481356816246745, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!23 &5050752879996460658
+--- !u!23 &4655013566589943758
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569350020324107877}
+  m_GameObject: {fileID: 1389779743794284505}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -81,7 +81,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5680851599815346965
+--- !u!1 &5213055903560624809
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,10 +89,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5016342318903742895}
-  - component: {fileID: 8228775085436788234}
-  - component: {fileID: 6185285199960189632}
-  - component: {fileID: 5680851599815346962}
+  - component: {fileID: 4833398234465153043}
+  - component: {fileID: 8411727399611580342}
+  - component: {fileID: 6005693904430844796}
+  - component: {fileID: 5213055903560624814}
+  - component: {fileID: 8688160464453759522}
+  - component: {fileID: -5876687801886188066}
   m_Layer: 0
   m_Name: EaglePlane
   m_TagString: Untagged
@@ -100,39 +102,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5016342318903742895
+--- !u!4 &4833398234465153043
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5680851599815346965}
-  m_LocalRotation: {x: 0.039473325, y: -0.5722165, z: -0.056373764, w: 0.81721}
-  m_LocalPosition: {x: -49.9, y: 27, z: -140.6}
+  m_GameObject: {fileID: 5213055903560624809}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
-  - {fileID: 5283557224928797297}
-  - {fileID: 8115584577856494214}
-  - {fileID: 6389025734386013566}
-  - {fileID: 7962060049617429673}
+  - {fileID: 5754748865422787533}
+  - {fileID: 8515840685021707066}
+  - {fileID: 6783669917056480450}
+  - {fileID: 7561796358035293461}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -70, z: -7.892}
---- !u!33 &8228775085436788234
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &8411727399611580342
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5680851599815346965}
+  m_GameObject: {fileID: 5213055903560624809}
   m_Mesh: {fileID: 7290677456632681762, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!23 &6185285199960189632
+--- !u!23 &6005693904430844796
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5680851599815346965}
+  m_GameObject: {fileID: 5213055903560624809}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -167,13 +169,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5680851599815346962
+--- !u!64 &5213055903560624814
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5680851599815346965}
+  m_GameObject: {fileID: 5213055903560624809}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -181,7 +183,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7290677456632681762, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!1 &7537828216911874190
+--- !u!54 &8688160464453759522
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213055903560624809}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-5876687801886188066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213055903560624809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36237b0122ec3674cb5c2482c91a2d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnManager: {fileID: 0}
+  uiCam: {fileID: 0}
+  GOpanel: {fileID: 0}
+--- !u!1 &7932439851784022322
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,9 +222,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 665285950486080900}
-  - component: {fileID: 1244703247887450089}
-  - component: {fileID: 7923738304206491372}
+  - component: {fileID: 1131983345791011896}
+  - component: {fileID: 1713652460160343637}
+  - component: {fileID: 7744160383164591952}
   m_Layer: 0
   m_Name: EaglePlane_FrontPropeller
   m_TagString: Untagged
@@ -199,35 +232,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &665285950486080900
+--- !u!4 &1131983345791011896
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7537828216911874190}
+  m_GameObject: {fileID: 7932439851784022322}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.14792389, y: 0.25884598, z: 0.025047684}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
-  m_Father: {fileID: 8115584577856494214}
+  m_Father: {fileID: 8515840685021707066}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1244703247887450089
+--- !u!33 &1713652460160343637
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7537828216911874190}
+  m_GameObject: {fileID: 7932439851784022322}
   m_Mesh: {fileID: -4386797457950771943, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!23 &7923738304206491372
+--- !u!23 &7744160383164591952
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7537828216911874190}
+  m_GameObject: {fileID: 7932439851784022322}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -262,7 +295,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7598146016019563224
+--- !u!1 &8069332725890982756
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,9 +303,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7962060049617429673}
-  - component: {fileID: 4798868893684120951}
-  - component: {fileID: 3800702568660259319}
+  - component: {fileID: 7561796358035293461}
+  - component: {fileID: 4906406821431434443}
+  - component: {fileID: 3616601669097697355}
   m_Layer: 0
   m_Name: EaglePlane_RightWheel
   m_TagString: Untagged
@@ -280,35 +313,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7962060049617429673
+--- !u!4 &7561796358035293461
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7598146016019563224}
+  m_GameObject: {fileID: 8069332725890982756}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5264787, y: 0.007521919, z: 0.62619734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5016342318903742895}
+  m_Father: {fileID: 4833398234465153043}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4798868893684120951
+--- !u!33 &4906406821431434443
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7598146016019563224}
+  m_GameObject: {fileID: 8069332725890982756}
   m_Mesh: {fileID: -6983146851942928028, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!23 &3800702568660259319
+--- !u!23 &3616601669097697355
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7598146016019563224}
+  m_GameObject: {fileID: 8069332725890982756}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -343,7 +376,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8549452999059551477
+--- !u!1 &8082779234689897801
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -351,9 +384,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5283557224928797297}
-  - component: {fileID: 942073350601212638}
-  - component: {fileID: 131922598377025716}
+  - component: {fileID: 5754748865422787533}
+  - component: {fileID: 836794798453908322}
+  - component: {fileID: 529912036056109320}
   m_Layer: 0
   m_Name: EaglePlane_BackWheel
   m_TagString: Untagged
@@ -361,35 +394,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5283557224928797297
+--- !u!4 &5754748865422787533
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8549452999059551477}
+  m_GameObject: {fileID: 8082779234689897801}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.3233223, y: 0.39665747, z: 0.00060069934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5016342318903742895}
+  m_Father: {fileID: 4833398234465153043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &942073350601212638
+--- !u!33 &836794798453908322
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8549452999059551477}
+  m_GameObject: {fileID: 8082779234689897801}
   m_Mesh: {fileID: -2086876649160450230, guid: a10ea97d1e7447a42a14b05fff673229, type: 3}
---- !u!23 &131922598377025716
+--- !u!23 &529912036056109320
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8549452999059551477}
+  m_GameObject: {fileID: 8082779234689897801}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -424,7 +457,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9031715800943082303
+--- !u!1 &8924189958662609539
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -432,7 +465,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8115584577856494214}
+  - component: {fileID: 8515840685021707066}
+  - component: {fileID: 2284480181616819449}
   m_Layer: 0
   m_Name: Propeller
   m_TagString: Untagged
@@ -440,18 +474,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8115584577856494214
+--- !u!4 &8515840685021707066
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9031715800943082303}
+  m_GameObject: {fileID: 8924189958662609539}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.289, y: 0.678, z: 0.03}
   m_LocalScale: {x: 0.19999996, y: 0.2, z: 0.19999996}
   m_Children:
-  - {fileID: 665285950486080900}
-  m_Father: {fileID: 5016342318903742895}
+  - {fileID: 1131983345791011896}
+  m_Father: {fileID: 4833398234465153043}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2284480181616819449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924189958662609539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propellerSpeed: 0
