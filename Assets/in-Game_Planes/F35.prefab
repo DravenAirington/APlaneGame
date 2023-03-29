@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3895932435381907198}
   - component: {fileID: 7290668655649985031}
   - component: {fileID: 5561953174132754510}
+  - component: {fileID: 1697326326989731429}
+  - component: {fileID: 4187896738053255486}
   m_Layer: 0
   m_Name: F35
   m_TagString: Untagged
@@ -98,9 +100,40 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4500790672820164825, guid: a1a74ddd5a4165744bd89f3ebc7f4230, type: 3}
+--- !u!54 &1697326326989731429
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012123483978966747}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &4187896738053255486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012123483978966747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36237b0122ec3674cb5c2482c91a2d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnManager: {fileID: 0}
+  uiCam: {fileID: 0}
+  GOpanel: {fileID: 0}
 --- !u!1001 &5749264635997978471
 PrefabInstance:
   m_ObjectHideFlags: 0

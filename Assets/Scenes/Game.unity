@@ -3164,7 +3164,7 @@ BoxCollider:
   m_GameObject: {fileID: 1901175314}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 4, z: 20}
   m_Center: {x: 0, y: 0, z: -1.8}
@@ -3352,7 +3352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 563233646861916240, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 563233646861916240, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3404,7 +3404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468422335317992317, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: UI
@@ -3419,17 +3419,105 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 752915560}
     - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: boostSpeed
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: spawnManager
       value: 
       objectReference: {fileID: 582796264}
     - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: planes.Array.size
-      value: 1
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: planes.Array.data[0]
       value: 
+      objectReference: {fileID: 7453825674305967348, guid: 85766162da9504645acb7a5b9ed97724, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[1]
+      value: 
       objectReference: {fileID: 5213055903560624809, guid: 6fd1febfc8cc2e345938a3a286a30324, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[2]
+      value: 
+      objectReference: {fileID: 7030244015047160186, guid: 9d5be33c06f6923469312f9aad70a01c, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[3]
+      value: 
+      objectReference: {fileID: 5471118552241616269, guid: 14d9611bd5d76154f842f72338d1a9eb, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[4]
+      value: 
+      objectReference: {fileID: 8454911089757480221, guid: 85bc83bea916855409f224da24bba235, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[5]
+      value: 
+      objectReference: {fileID: 1927206255856236561, guid: a5fa952aed8d14c43976cb6930564e22, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 6151965248280542661, guid: 9ae410789134d7e48895023d009d858b, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[7]
+      value: 
+      objectReference: {fileID: 315858182334662559, guid: a1035eed071403246a84a61c31afaaf5, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[8]
+      value: 
+      objectReference: {fileID: 9012123483978966747, guid: b2d8391f0cafffa4abeff40b81c49c98, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[9]
+      value: 
+      objectReference: {fileID: 1645992466627310174, guid: 4ef7184bd4394184292e78079b0571b2, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[10]
+      value: 
+      objectReference: {fileID: 5702688631103973552, guid: d3a73d3eea612f84faee46140150cfd5, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[11]
+      value: 
+      objectReference: {fileID: 4112825359798770857, guid: ee2c5e0e1483ab24fbb6c1f68b027ecc, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[12]
+      value: 
+      objectReference: {fileID: 3934576810531704961, guid: 503010747ebdc0f49ad2c838fa4082dd, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[13]
+      value: 
+      objectReference: {fileID: 8986874609147786161, guid: 574e5cf2908db1c48af1117b7ee328d4, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[14]
+      value: 
+      objectReference: {fileID: 6209586576754318757, guid: 00c3b2984fdf3df43809d4af9c407ffd, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[15]
+      value: 
+      objectReference: {fileID: 4738140660882899322, guid: 6499a68aac10e51478c0faab76d122fb, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[16]
+      value: 
+      objectReference: {fileID: 4296772159093015820, guid: 41917adfe9a917645aa0b1eea993619a, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[17]
+      value: 
+      objectReference: {fileID: 6673879864250056558, guid: a54ec059a6527ae4aad642ed20f0def6, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[18]
+      value: 
+      objectReference: {fileID: 2198698759283310839, guid: a949be04f81340043beca9ad05d5064e, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[19]
+      value: 
+      objectReference: {fileID: 4503124075514661444, guid: 6047d21e9fbfd1d4ca1903044dc477ea, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[20]
+      value: 
+      objectReference: {fileID: 3217397607930778339, guid: 692d00d1a8f1fe44e96b4ffa7285e179, type: 3}
+    - target: {fileID: 8468422335549022076, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
+      propertyPath: planes.Array.data[21]
+      value: 
+      objectReference: {fileID: 3244810196765649721, guid: b16085540b9bb1747a6e342cbef55140, type: 3}
     - target: {fileID: 8468422335549022077, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3440,7 +3528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468422335549022078, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8468422335549022078, guid: a26190c23b9bb2d43b3c638ab0b507e8, type: 3}
       propertyPath: m_Center.z

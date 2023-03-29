@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3849644623205978309}
   - component: {fileID: 4489778937595656121}
   - component: {fileID: 4011805119645129928}
-  - component: {fileID: 444274866}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Obstacle
@@ -274,22 +273,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274866
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776991004320572340}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 2.4999995, y: 2.500001, z: 0.5}
 --- !u!1 &1191986210914734414
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +289,6 @@ GameObject:
   - component: {fileID: 5683014224347113845}
   - component: {fileID: 2415454482151242007}
   - component: {fileID: 8441227518425412708}
-  - component: {fileID: 444274868}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Obstacle
@@ -567,19 +552,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274868
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1191986210914734414}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 2.4999995, y: 2.5, z: 0.5}
 --- !u!1 &2596024409414288798
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +565,6 @@ GameObject:
   - component: {fileID: 8003748813395955456}
   - component: {fileID: 5515206733398823551}
   - component: {fileID: 7514665689850541351}
-  - component: {fileID: 444274864}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Obstacle
@@ -854,22 +825,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274864
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2596024409414288798}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.0000005, y: 5.0000005, z: 1}
-  m_Center: {x: 2.4999988, y: 2.5000017, z: 0.5}
 --- !u!1 &4848027845496213080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,7 +1101,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &6712721439430761830
@@ -1159,7 +1117,6 @@ GameObject:
   - component: {fileID: 7168999318494413962}
   - component: {fileID: 7671886444894726214}
   - component: {fileID: 673196677061590459}
-  - component: {fileID: 444274867}
   - component: {fileID: 4237200815003278966}
   m_Layer: 0
   m_Name: Top Prism
@@ -1422,22 +1379,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274867
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6712721439430761830}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 2.5, y: 2.499999, z: 0.5}
 --- !u!114 &4237200815003278966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1539,7 +1483,6 @@ GameObject:
   - component: {fileID: 3190528933205677330}
   - component: {fileID: 6801565613154989087}
   - component: {fileID: 290246213637427443}
-  - component: {fileID: 444274863}
   - component: {fileID: 6735538117467984687}
   m_Layer: 0
   m_Name: Top Prism (3)
@@ -1802,22 +1745,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274863
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7659480411842662470}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.0000005, y: 5.0000005, z: 1}
-  m_Center: {x: 2.5000002, y: 2.4999964, z: 0.5}
 --- !u!114 &6735538117467984687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1843,7 +1773,6 @@ GameObject:
   - component: {fileID: 4063379695708539319}
   - component: {fileID: 5093522228858923967}
   - component: {fileID: 1945295322830525075}
-  - component: {fileID: 444274865}
   - component: {fileID: 2235871864711975840}
   m_Layer: 0
   m_Name: Top Prism (2)
@@ -2106,22 +2035,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274865
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8159460535299362049}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.0000005, y: 5.0000005, z: 1}
-  m_Center: {x: 2.5000012, y: 2.4999988, z: 0.5}
 --- !u!114 &2235871864711975840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2147,7 +2063,6 @@ GameObject:
   - component: {fileID: 2975441384152989769}
   - component: {fileID: 3270315799499588273}
   - component: {fileID: 8219276619477489482}
-  - component: {fileID: 444274869}
   - component: {fileID: 2721870605869643465}
   m_Layer: 0
   m_Name: Top Prism (1)
@@ -2416,19 +2331,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &444274869
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8338567680519825687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 2.5, y: 2.5, z: 0.5}
 --- !u!114 &2721870605869643465
 MonoBehaviour:
   m_ObjectHideFlags: 0

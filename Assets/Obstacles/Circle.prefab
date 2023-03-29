@@ -63,7 +63,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &-8249929615405677182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 8805096655440925837}
   - component: {fileID: 8805096655440925842}
   - component: {fileID: 3034013482165438421}
+  - component: {fileID: 6639890384555974327}
   m_Layer: 0
   m_Name: Arch
   m_TagString: Obstacle
@@ -12220,6 +12221,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f914814f4269a14994673a5d0bde3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &6639890384555974327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8805096655440925843}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.86, y: 2.21, z: 1.0000001}
+  m_Center: {x: -9.73, y: 0, z: 0.5000306}
 --- !u!1001 &4322335838685527283
 PrefabInstance:
   m_ObjectHideFlags: 0

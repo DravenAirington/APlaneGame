@@ -29,7 +29,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject plane = Instantiate(planes[PlayerData.instance.currentPlane], transform);
+        GameObject gameObject1 = Instantiate(planes[PlayerData.instance.currentPlane], transform);
+        GameObject plane = gameObject1;
         DetectCollision detect = plane.GetComponentInChildren<DetectCollision>();
         detect.spawnManager = spawnManager;
         detect.uiCam = UI;
