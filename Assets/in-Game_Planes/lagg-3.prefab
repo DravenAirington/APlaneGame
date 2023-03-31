@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 4892488133616297345}
   - component: {fileID: 3997329211491964155}
   - component: {fileID: 446420212118055209}
-  - component: {fileID: 3204773073689852225}
+  - component: {fileID: 7985479910281961143}
   m_Layer: 0
   m_Name: blade
   m_TagString: Untagged
@@ -814,7 +814,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3204773073689852225
+--- !u!114 &7985479910281961143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -823,10 +823,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4570300259276675207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 531e58a78d87cd24e86f53dd9bb16815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  propellerSpeed: 3
 --- !u!1 &5385712299326952530
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     public bool isGameOver, saveScore;
     public static GameManager instance;
     public TextMeshProUGUI scoreLabel, coinLabel;
-    
+    public TextMeshProUGUI goScoreLabel, goCoinLabel, goHiscore;
+    public Material[] skyBox;
 
 
     // Start is called before the first frame update
@@ -34,12 +35,19 @@ public class GameManager : MonoBehaviour
         score = 0;
         isGameOver = false;
         saveScore = false;
+        int randSkybox = Random.Range(0, skyBox.Length - 1);
+        RenderSettings.skybox = skyBox[randSkybox];
 
     }
 
     public void GameOver()
     {
         isGameOver = true;
+        PlayerData.instance.SaveHighScore(score);
+        goCoinLabel.text = "Coins: " + coinsCollected;
+        goScoreLabel.text = "Score: " + score;
+        goHiscore.text = "Highscore: " + PlayerData.instance.highScore;
+
     }
 
     // Update is called once per frame

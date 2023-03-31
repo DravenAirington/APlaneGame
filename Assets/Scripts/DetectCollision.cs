@@ -38,18 +38,22 @@ public class DetectCollision : MonoBehaviour
         if (other.CompareTag("rusty coin"))
         {
             GameManager.instance.CollectCoin(1);
+            other.gameObject.SetActive(false);
         }
         if (other.CompareTag("silver coin"))
         {
             GameManager.instance.CollectCoin(5);
+            other.gameObject.SetActive(false);
         }
         if (other.CompareTag("Copper coin"))
         {
             GameManager.instance.CollectCoin(2);
+            other.gameObject.SetActive(false);
         }
         if (other.CompareTag("Gold Coin"))
         {
             GameManager.instance.CollectCoin(10);
+            other.gameObject.SetActive(false);
         }
     }
 }
