@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
 {
     public SpawnManager spawnManager;
     public GameObject player;
-   
 
+    public float capSpeed = 100;
+    public float startSpeed;
     public float speed;
     public float rotationSpeed;
     public float verticalInput;
@@ -41,7 +42,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        speed = GameManager.instance.score / 5 + startSpeed;
+        boostSpeed = speed + 20;
+
+        if(speed > capSpeed)
+        {
+            speed = capSpeed;
+        }
         //gets the vertical axis to go up and down
         //verticalInput = Input.GetAxis("Vertical");
         //makes it go forward
