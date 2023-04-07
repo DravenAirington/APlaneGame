@@ -9,12 +9,16 @@ public class MainMenuManager : MonoBehaviour
     // Start is called before the first frame update
     public void StartNew()
     {
+        LightmapSettings.lightmaps = new LightmapData[0];
+        Resources.UnloadUnusedAssets();
         SceneManager.LoadScene(1);
     }
 
   public void openStore()
 
     {
+        LightmapSettings.lightmaps = new LightmapData[0];
+        Resources.UnloadUnusedAssets();
         SceneManager.LoadScene(2);
     }
 }

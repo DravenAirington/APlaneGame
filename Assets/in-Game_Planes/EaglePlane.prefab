@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1131983345791011896}
   - component: {fileID: 1713652460160343637}
   - component: {fileID: 7744160383164591952}
+  - component: {fileID: 5483256616352421578}
   m_Layer: 0
   m_Name: EaglePlane_FrontPropeller
   m_TagString: Untagged
@@ -295,6 +296,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5483256616352421578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932439851784022322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8069332725890982756
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +479,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8515840685021707066}
-  - component: {fileID: 2284480181616819449}
   m_Layer: 0
   m_Name: Propeller
   m_TagString: Untagged
@@ -489,16 +501,3 @@ Transform:
   m_Father: {fileID: 4833398234465153043}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2284480181616819449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8924189958662609539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4d1c71843aa304e9ad63c963e097c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  propellerSpeed: 0

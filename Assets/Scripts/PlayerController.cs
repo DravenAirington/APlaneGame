@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 {
     public SpawnManager spawnManager;
     public GameObject player;
-
+    public GameMenuManager menuManager;
     public float capSpeed = 100;
     public float startSpeed;
     public float speed;
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = GameManager.instance.score / 5 + startSpeed;
+        speed = GameManager.instance.score / 75 + startSpeed;
         boostSpeed = speed + 20;
 
         if(speed > capSpeed)
@@ -54,11 +54,11 @@ public class PlayerController : MonoBehaviour
         //makes it go forward
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
        //makes it go up and downS
-        transform.Rotate(Vector3.right * rotationSpeed * vertical);
+        transform.Rotate(Vector3.right * rotationSpeed * vertical * Time.deltaTime);
         //gets horizontal axis
         //horizontalInput = Input.GetAxis("Horizontal");
         //spins left and right
-        transform.Rotate(Vector3.back * rotationSpeed * horizontal);
+        transform.Rotate(Vector3.back * rotationSpeed * horizontal * Time.deltaTime);
         
         //uses quaternions to adjust back to zero
         /*if (Input.GetButton("Readjust"))
@@ -80,16 +80,41 @@ public class PlayerController : MonoBehaviour
     {
         vertical = value.Get<Vector2>().y;  
     }
+
+    public void MoveInput(Vector2 value)
+    {
+        vertical = value.y;
+    }
+
     public void OnRotate(InputValue value)
     {
         horizontal = value.Get<Vector2>().x;
+    }
+    public void RotateInput(Vector2 value)
+    {
+        horizontal = value.x;
     }
     public void OnBoost(InputValue value)
     {
         boost = !boost;
     }
+    public void BoostInput(bool value)
+    {
+        boost = value;
+    }
     public void OnFire(InputValue value)
     {
         fire = value.isPressed;
+    }
+    public void OnPause(InputValue value)
+    {
+        if(menuManager.isPaused == true)
+        {
+            menuManager.closePanel();
+        }
+        else
+        {
+            menuManager.openPanel();
+        }
     }
 }

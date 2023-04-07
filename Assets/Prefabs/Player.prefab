@@ -217,10 +217,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnManager: {fileID: 0}
   player: {fileID: 8468422335549022077}
-  propeller: {fileID: 0}
-  propellerSpeed: 3
+  capSpeed: 100
+  startSpeed: 0
   speed: 45
-  rotationSpeed: 1
+  rotationSpeed: 5
   verticalInput: 0
   horizontalInput: 0
   spinInput: 0

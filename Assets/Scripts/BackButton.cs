@@ -7,6 +7,8 @@ public class BackButton : MonoBehaviour
 {
     public void BackToMenu()
     {
+        LightmapSettings.lightmaps = new LightmapData[0];
+        Resources.UnloadUnusedAssets();
         SceneManager.LoadScene(0);
     }
 }
