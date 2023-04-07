@@ -11,7 +11,7 @@ public class MainMenuManager : MonoBehaviour
     {
         LightmapSettings.lightmaps = new LightmapData[0];
         Resources.UnloadUnusedAssets();
-        SceneManager.LoadScene(1);
+        SceneLoader.LoadTheScene(1);
     }
 
   public void openStore()
@@ -19,6 +19,6 @@ public class MainMenuManager : MonoBehaviour
     {
         LightmapSettings.lightmaps = new LightmapData[0];
         Resources.UnloadUnusedAssets();
-        SceneManager.LoadScene(2);
+        SceneLoader.LoadTheScene(2);
     }
 }

@@ -32,7 +32,8 @@ public class GameMenuManager : MonoBehaviour
     {
         LightmapSettings.lightmaps = new LightmapData[0];
         Resources.UnloadUnusedAssets();
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
+        SceneLoader.LoadTheScene(0);
         Time.timeScale = 1.0f;
     }
 
@@ -40,7 +41,8 @@ public class GameMenuManager : MonoBehaviour
     {
         LightmapSettings.lightmaps = new LightmapData[0];
         Resources.UnloadUnusedAssets();
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
+        SceneLoader.LoadTheScene(1);
         Time.timeScale = 1.0f;
     }
 

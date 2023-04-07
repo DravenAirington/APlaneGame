@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HangarStore.unity
     guid: 532e7aaf37ff97844b6f5ec689d6ee99
+  - enabled: 1
+    path: Assets/Scenes/Loading scene.unity
+    guid: 1b6f7e4af8051bb458d92f1200d9a41a
   m_configObjects: {}
