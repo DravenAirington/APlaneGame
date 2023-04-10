@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public Transform player;
     public GameObject uiCam;
     public GameObject GOpanel;
+    public GameObject mobileController;
 
 
     // Start is called before the first frame update
@@ -54,6 +55,9 @@ public class GameManager : MonoBehaviour
         goScoreLabel.text = "Score: " + score;
         goHiscore.text = "Highscore: " + PlayerData.instance.highScore;
         EventSystem.current.SetSelectedGameObject(restrtButton);
+#if (UNITY_IOS || UNITY_ANDROID)
+        mobileController.SetActive(false);
+#endif
     }
 
     // Update is called once per frame

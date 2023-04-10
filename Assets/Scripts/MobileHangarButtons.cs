@@ -10,7 +10,7 @@ public class MobileHangarButtons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-#if (UNITY_IOS && UNITY_ANDROID)
+#if (UNITY_IOS || UNITY_ANDROID)
 
 #else
         button1.SetActive(false);

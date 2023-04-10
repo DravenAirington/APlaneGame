@@ -3410,6 +3410,7 @@ MonoBehaviour:
   player: {fileID: 1901175319}
   uiCam: {fileID: 740135298}
   GOpanel: {fileID: 752915560}
+  mobileController: {fileID: 6751388635723633011}
 --- !u!4 &1755925568
 Transform:
   m_ObjectHideFlags: 0
