@@ -4521,7 +4521,7 @@ MonoBehaviour:
   containerRect: {fileID: 8160084292554040590}
   handleRect: {fileID: 5679172029202008496}
   joystickRange: 60
-  magnitudeMultiplier: 30
+  magnitudeMultiplier: 1
   invertXOutputValue: 0
   invertYOutputValue: 1
   joystickOutputEvent:
@@ -4934,6 +4934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 901182334643ba1438a25accc6bd0c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controls: {fileID: 0}
+  mobileControls: {fileID: 0}
 --- !u!114 &8934069600440023431
 MonoBehaviour:
   m_ObjectHideFlags: 0
