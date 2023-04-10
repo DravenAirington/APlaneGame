@@ -143,6 +143,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -730,6 +731,7 @@ PlayerSettings:
   wsaImages:
     65636: Assets/images/APG-50.jpg
     65736: Assets/images/APG-100.jpg
+    131272: Assets/images/APGSplashScreen.png
     2031640: Assets/images/APG-24.jpg
     2031716: Assets/images/APG-44.jpg
     2031816: Assets/images/APG-88.jpg
