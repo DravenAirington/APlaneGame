@@ -92,6 +92,7 @@ public class PlayerController : MonoBehaviour
     }
     public void RotateInput(Vector2 value)
     {
+        value = value.normalized;
         horizontal = value.x;
     }
     public void OnBoost(InputValue value)

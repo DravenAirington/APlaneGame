@@ -82,7 +82,8 @@ public class GameManager : MonoBehaviour
         {
             GOpanel.SetActive(true);
             uiCam.SetActive(true);
-            Destroy(player.gameObject);
+            if(player.gameObject != null)
+                Destroy(player.gameObject);
             GameOver();
         }
 
